@@ -25,6 +25,9 @@
         .container {
             width: 100%;
             padding: 0 148px;
+        }
+        
+        #home-section {
             height: 100vh;
         }
         
@@ -217,5 +220,27 @@
             width: 80%;
             font-size: 17px;
             line-height: 25px;
+            color: var(--dark);
+        }
+        /* footer css start */
+        
+        footer {
+            padding: 50px 148px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .social {
+            display: flex;
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        
+        .social li {
+            border-radius: 50%;
+            font-size: 40px;
+            margin: 0 12px;
             color: var(--dark);
         }
