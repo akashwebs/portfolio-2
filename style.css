@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+:root {
+    --dark: #21243D;
+    --primary: #FF6464;
+    --secondry: #00A8CC;
+    --light: #8695A4;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--dark)
+}
+
+a:hover {
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    padding: 0 148px;
+    height: 100vh;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    padding: 7px 10px;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.my-self {
+    display: flex;
+    padding: 50px 0;
+}
+
+.my-self .self-left {
+    width: 50%;
+}
+
+.self-left h1 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.self-left p {
+    width: 497px;
+    font-family: Heebo;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 37px 0;
+    color: var(--dark);
+    text-align: justify;
+    padding-right: 2px;
+}
+
+.self-left a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: var(--primary);
+    padding: 7px 10px;
+}
+
+.self-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* start recent post */
+
+.rc-section {
+    background: #EDF7FA;
+    padding: 30px 145px;
+}
+
+.recent-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.recent-post-header .rc-left a {
+    font-size: 22px;
+}
+
+.recent-post-header .rc-right a {
+    color: var(--secondry);
+}
+
+.recent-post-header .rc-right a:hover {
+    font-weight: 600;
+}
+
+.rc-post-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rc-post {
+    padding: 25px;
+    background: #fff;
+}
+
+.rc-post h2 {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+}
+
+.rc-post ul {
+    display: flex;
+    margin: 15px 0;
+}
+
+.rc-post ul li {
+    list-style: none;
+    height: 30px;
+}
+
+.rc-post ul li a {
+    padding: 7px 20px 7px 0;
+}
+
+.rc-post p {
+    font-size: 16px;
+    line-height: 23px;
+    padding-right: 45px;
+}
+
+#hr-verti {
+    width: 0px;
+    height: 100%;
+    margin-right: 20px;
+}
