@@ -49,6 +49,7 @@
         
         .my-self {
             display: flex;
+            flex-wrap: wrap;
             padding: 50px 0;
         }
         
@@ -171,7 +172,7 @@
         
         .fw-container .fw-post {
             display: flex;
-            border-bottom: 1px solid var(--light);
+            border-bottom: 1px solid #E0E0E0;
             padding: 10px 0;
         }
         
